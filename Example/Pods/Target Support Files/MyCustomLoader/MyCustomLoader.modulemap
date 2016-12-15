@@ -1,0 +1,6 @@
+framework module MyCustomLoader {
+  umbrella header "MyCustomLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
