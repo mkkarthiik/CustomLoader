@@ -22,4 +22,6 @@ s.source_files = 'MyCustomLoader/Classes/**/*'
 'MyCustomLoader' => ['MyCustomLoader/Classes/**/*.{xib}']
  }
 
+s.dependency 'PodAsset'
+
 end

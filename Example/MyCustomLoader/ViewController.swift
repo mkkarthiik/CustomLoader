@@ -7,18 +7,17 @@
 //
 
 import UIKit
+import MyCustomLoader
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let loader = CustomLoader.getLoader(target: self)
+        
+        self.view.addSubview(loader)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
