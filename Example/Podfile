@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyCustomLoader_Example' do
+  pod 'MyCustomLoader', :path => '../'
+
+  target 'MyCustomLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
