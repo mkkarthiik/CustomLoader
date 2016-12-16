@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12B9FE2C197F2AFB254B534C81DE65CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097894E3BAA2C49C5D59992633A0060 /* ReplaceMe.swift */; };
 		2650E907D856B444C2536642ACFE872E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A451997E6BEB4119194BA4AE7E43AD41 /* Foundation.framework */; };
 		42D2045B7CD33026DEBD525EFC7BE746 /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3B5DED5CE0E7C34EB5A99E952D2C5 /* CustomLoader.swift */; };
 		4E49329FF911A8FCDD9B093FB18CC12F /* PodAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD93A94E4CB0872374A33B16556576 /* PodAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,7 +68,6 @@
 		613AF8290BF53F37A014E8571B99C949 /* MyCustomLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyCustomLoader-prefix.pch"; sourceTree = "<group>"; };
 		69E1BC5B7D14CEAC59E3FEEFE1EBB6EB /* PodAsset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-umbrella.h"; sourceTree = "<group>"; };
 		6BB3B5DED5CE0E7C34EB5A99E952D2C5 /* CustomLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
-		7097894E3BAA2C49C5D59992633A0060 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		758BC0F89E3177F8AA1FCEB2EF6CD620 /* Pods_MyCustomLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCustomLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF4B98AB3C2C085E6BD092C3BEB5F90 /* PodAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F709C1CF4795B2353DC507FEF0BFB53 /* PodAsset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-prefix.pch"; sourceTree = "<group>"; };
@@ -249,7 +247,6 @@
 			children = (
 				6BB3B5DED5CE0E7C34EB5A99E952D2C5 /* CustomLoader.swift */,
 				E24C5707A9A3306D07BFE9580B6575A5 /* Loader.xib */,
-				7097894E3BAA2C49C5D59992633A0060 /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -464,7 +461,6 @@
 				42D2045B7CD33026DEBD525EFC7BE746 /* CustomLoader.swift in Sources */,
 				BC41DB216F25CAFC8940FC5A71AD2B20 /* Loader.xib in Sources */,
 				68F959791943C918013EB1711249E6F6 /* MyCustomLoader-dummy.m in Sources */,
-				12B9FE2C197F2AFB254B534C81DE65CD /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

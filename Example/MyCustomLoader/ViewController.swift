@@ -10,14 +10,28 @@ import UIKit
 import MyCustomLoader
 
 
+
 class ViewController: UIViewController {
 
+    lazy var customLoader : CustomLoader = {
+     
+        let loader = CustomLoader(forView:self.view)
+        return loader
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+    }
+    
+    @IBAction func startBtnAction(_ sender: Any) {
         
-        let loader = CustomLoader.getLoader(target: self)
+        customLoader.showLoader()
+    }
+    
+    @IBAction func stopBtnAction(_ sender: Any) {
         
-        self.view.addSubview(loader)
+        customLoader.hideLoader()
     }
 }
 
