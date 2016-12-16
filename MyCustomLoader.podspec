@@ -9,7 +9,7 @@ s.summary          = 'A short description of CustomLoader.'
 s.homepage         = 'https://github.com/karthik-ios-dev/CustomLoader'
 s.author           = { 'karthik samy' => 'mkkarthiik@gmail.com' }
 
-s.source           = { :git => 'https://github.com/karthik-ios-dev/CustomLoader.git', :tag => 'v1.0' }
+s.source           = { :git => 'https://github.com/karthik-ios-dev/CustomLoader.git', :tag => s.version.to_s }
 
 s.summary          = 'A simple lightweight loader with activity indicator.'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
