@@ -1,22 +1,31 @@
 {
   "name": "MyCustomLoader",
-  "version": "0.1.0",
-  "summary": "A short description of MyCustomLoader.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MyCustomLoader",
+  "version": "1.0",
+  "summary": "A simple lightweight loader with activity indicator.",
+  "homepage": "https://github.com/karthik-ios-dev/CustomLoader",
+  "authors": {
+    "karthik samy": "mkkarthiik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/karthik-ios-dev/CustomLoader.git",
+    "tag": "v1.0"
+  },
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "authors": {
-    "karthikAdaptavant": "karthik.samy@a-cti.com"
-  },
-  "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MyCustomLoader.git",
-    "tag": "0.1.0"
-  },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MyCustomLoader/Classes/**/*"
+  "source_files": "MyCustomLoader/Classes/**/*",
+  "resource_bundles": {
+    "MyCustomLoader": [
+      "MyCustomLoader/Classes/**/*.{xib}"
+    ]
+  },
+  "dependencies": {
+    "PodAsset": [
+
+    ]
+  }
 }

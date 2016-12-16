@@ -1,16 +1,20 @@
 PODS:
-  - MyCustomLoader (0.1.0)
+  - MyCustomLoader (1.0):
+    - PodAsset
+  - PodAsset (0.15.0)
 
 DEPENDENCIES:
   - MyCustomLoader (from `../`)
+  - PodAsset
 
 EXTERNAL SOURCES:
   MyCustomLoader:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyCustomLoader: d7f5371231add2520ee9957affd31206643832e1
+  MyCustomLoader: 129bdfc494bd7d205e7c849e49e3f1b4b594433a
+  PodAsset: 6b3d72c15e956323a8a5ae3612c5c712f5965657
 
-PODFILE CHECKSUM: f095b9be3355bcb1a856f6c9f8d27ea2d721f00b
+PODFILE CHECKSUM: 8be7b80aab8d5c836e37c9796f45d8764923d932
 
 COCOAPODS: 1.1.1

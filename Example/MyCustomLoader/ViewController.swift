@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import MyCustomLoader
+
+
 
 class ViewController: UIViewController {
 
+    lazy var customLoader : CustomLoader = {
+     
+        let loader = CustomLoader(forView:self.view)
+        return loader
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func startBtnAction(_ sender: Any) {
+        
+        customLoader.showLoader()
     }
-
+    
+    @IBAction func stopBtnAction(_ sender: Any) {
+        
+        customLoader.hideLoader()
+    }
 }
 
